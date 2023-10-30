@@ -1,0 +1,133 @@
+body,
+h1,
+p,
+div,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.referral-card {
+    position: relative;
+    padding: 2.325rem;
+    border-radius: 1.3rem;
+    width: 35.2rem;
+    height: 15rem;
+    background-color: #151515;
+    /* box-shadow: 0 0.5rem 1.3rem rgba(0,0,0,.5215686274509804); */
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+.mt-medium {
+    margin-top: 1.5rem;
+    color: white;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.card-action {
+    display: flex;
+    justify-content: center;
+}
+
+.App-cta.Exchange-swap-button {
+    background-color: #3eb489;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 500px;
+}
+
+.App-cta.Exchange-swap-button:hover {
+    background-color: #3eb489;
+}
+
+.outer {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+.referral-tab-container {
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.Tab.block {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
+    font-size: 2rem;
+    border-radius: 3px;
+    overflow: hidden;
+    color: hsla(0, 0%, 100%, .7);
+}
+
+.Tab-option {
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 0.8rem 1.5rem;
+}
+
+.active {
+    opacity: 1;
+    pointer-events: none;
+    background: #3eb489;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.muted {
+    opacity: 0.5;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.muted:hover {
+    opacity: 1;
+}
+.bor{
+    width: 200px;
+    height: 40PXpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: color #151515;;
+}

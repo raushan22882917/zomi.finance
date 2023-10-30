@@ -1,0 +1,176 @@
+body,
+h1,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.deta {
+    color: #FFFFFF;
+}
+
+.section-title-block {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.section-title-content {
+    color: #333;
+}
+
+.Page-title {
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.Page-description {
+    font-size: 16px;
+    color: #B7B7BD;
+    width: 292px;
+    height: 21.48px;
+}
+
+.section-title-icon {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 100px; */
+}
+
+.App-card {
+    border-radius: 5px;
+    padding: 20px;
+    width: 593px;
+    margin: 10px;
+    color: white;
+    border: 1px solid #4d4d4e;
+}
+
+.App-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.App-card-divider {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.App-card-content {
+    color: #333;
+}
+
+/* .App-card-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+} */
+.App-card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.label {
+    flex: 1;
+    color: white;
+}
+
+
+
+.App-button-option {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3eb489;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.App-button-option:hover {
+    background-color: #2775CA;
+}
+
+
+.Tab-title-section {
+    color: #fff;
+    padding: 50px;
+
+}
+
+.Page-title1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+
+}
+
+.Page-description {
+    margin-top: 10px;
+    width: auto;
+}
+
+.Page-description a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.Page-description a:hover {
+    text-decoration: none;
+}
+
+.box1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+
+.Tooltip-handle {
+    cursor: help;
+    position: relative;
+    display: inline-flex;
+    text-decoration: underline;
+    color: white;
+    -webkit-text-decoration-style: dashed;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    -webkit-text-decoration-color: hsla(0, 0%, 100%, .6);
+    text-decoration-color: hsla(0, 0%, 100%, .6);
+}
+
+#price:hover+.box2 {
+    display: block;
+}
+
+.box2 {
+    display: none;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid #ccc;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 100px;
+    color: white;
+}
+
+.box2 div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}

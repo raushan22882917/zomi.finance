@@ -1,0 +1,515 @@
+body {
+    background-color: #191919;
+    font-family: 'Roboto-medium', sans-serif;
+
+}
+
+.network-dropdown {
+    display: flex;
+    border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+
+    height: 60px;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    position: relative;
+    z-index: 800;
+    box-shadow: 0 0.7rem 0.8rem rgba(0, 0, 0, .2);
+    border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+
+
+}
+
+.header-item {
+    display: inline-block;
+    margin-right: 20px;
+    color: #A7A7A9;
+    width: auto;
+    gap: 10px;
+
+}
+
+.header-item:hover {
+    color: white;
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.head {
+    display: flex;
+    width: 675px;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+
+button {
+    width: auto;
+    height: 40px;
+
+}
+
+.wallet {
+    width: auto;
+    height: 40px;
+    border: 2px solid white;
+}
+
+.trade {
+    background: #3eb489;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff !important;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 3.6rem;
+    display: inline-flex !important;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.App-header-container-right {
+    display: flex;
+    align-items: center;
+}
+
+.App-card-option {
+    margin-top: 20px;
+}
+
+.App-header-user {
+    display: flex;
+    margin-right: 50px;
+}
+
+.App-header-trade-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3eb489;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.connect-wallet {
+    background-color: black;
+    color: #fff;
+    border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-image {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.btn-label {
+    font-weight: bold;
+}
+
+.network-dropdown button {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.network-dropdown-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.network-dropdown-seperator {
+    border-right: 1px solid #fff;
+    height: 24px;
+    margin: 0 10px;
+}
+
+.App-header-network {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    height: 710px;
+    color: white;
+}
+
+.Home-title-section {
+    max-width: 53rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 150px;
+}
+
+.Home-title {
+    font-size: 3.7rem;
+    line-height: 4.8rem;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0;
+    font-weight: bold;
+
+
+}
+
+.Home-description {
+    font-size: 1.2rem;
+    color: #cecece;
+    margin-bottom: 20px;
+}
+
+.default-btn {
+    background-color: #3eb489;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.default-btn:hover {
+    background-color: #0bde91;
+}
+
+.Home-latest-info-container {
+    padding: 20px;
+    display: flex;
+    width: 85%;
+    margin-left: 130px;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.Home-latest-info-block {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    height: 121.6px;
+    border-radius: 5px;
+    box-shadow: 0 0.7rem 0.8rem rgba(0, 0, 0, .2);
+    border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+    border-radius: 4px;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+
+.Home-latest-info__icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+}
+
+.Home-latest-info-content {
+    text-align: center;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-latest-info__title {
+    color: #cecece;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    letter-spacing: 0;
+}
+
+.Home-token-card-info__title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 3.1rem;
+    letter-spacing: 0;
+    color: white;
+    margin-left: 70px;
+    margin-top: 90px;
+}
+
+.Home-latest-info__value {
+    font-size: 1.5rem;
+    color: white;
+    font-size: 25px;
+}
+
+.Home-benefits-section {
+    padding: 20px 0;
+    border-top: 1px solid #4d4d4e;
+
+}
+
+.Home-benefits {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.Home-benefit {
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.Home-benefit-icon-symbol {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+
+}
+
+.Home-benefit-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Home-benefit-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.Home-benefit-description {
+    font-size: 1.2rem;
+    color: #cecece;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+.token {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #4d4d4e;
+    background-color: #151515;
+    width: 592px;
+    height: 246px;
+
+}
+
+.token h2 {
+    font-size: 24px;
+    color: #000;
+}
+
+.token p {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.token a {
+    text-decoration: none;
+    color: #000;
+}
+
+.token a:hover {
+    color: #333;
+}
+
+.tokens {
+    display: flex;
+    gap: 50px;
+    margin-left: 80px;
+}
+
+.buy {
+    width: 70.51px;
+    height: 36px;
+    background-color: #3eb489;
+    border-radius: 4px;
+}
+.buy:hover{
+    background-color: #0af19c;
+
+}
+
+.read {
+    width: 102.48px;
+    height: 36px;
+    color: white;
+    background: transparent;
+    border: 1px solid #a0a3c4;
+    border-radius: 4px;
+}
+.red:hover {
+    background-color: #151515;
+    cursor: pointer;
+}
+
+.zomi {
+    display: flex;
+    gap: 10px;
+}
+
+.zomi h2 {
+    color: white;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Footer-wrapper {
+    background-color: #151515;
+    padding: 20px;
+}
+
+.Footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.logo_text {
+    font-size: 20px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Footer-logo img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.Footer-social-link-block {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-social-link {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    margin-left:32px;
+}
+
+.Footer-links {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-link {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/**********mobile view**************/
+@media (max-width: 767px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .head {
+        justify-content: space-around;
+    }
+}
+
+.mobile-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff0000;
+    color: black;
+    text-align: center;
+    margin-top: 50%;
+    padding: 10px;
+    z-index: 999;
+}
+
+@media (max-width: 767px) {
+    .mobile-message {
+        display: block;
+    }
+}

@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-title-block {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 3.4rem;
+  padding: 10px;
+
+}
+
+.section-title-content {
+  margin-left: 8px;
+}
+
+.Page-title {
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Page-description {
+  color: #b7b7bd;
+  font-size: 16px;
+}
+
+.icon {
+  width: auto;
+  height: auto;
+  background-color: rgb(152, 152, 218);
+}
+
+.inner {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  gap: 50px;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.DashboardV2-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.App-card1 {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  color: white;
+  display: flex;
+  width: 45%;
+  height: auto;
+}
+
+.App-card {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  color: white;
+  width: 45%;
+  height: auto;
+}
+
+.App-card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.App-card-divider {
+  border-top: 1px solid #ccc;
+  margin: 8px 0;
+}
+
+.App-card-content {
+  margin-top: 12px;
+}
+
+.App-card-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.label {
+  flex: 1;
+}
+
+
+
+.nowrap {
+  white-space: nowrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Tab-title-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 50px;
+}
+
+.Page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Page-title img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.Page-description {
+  font-size: 16px;
+  color: #b7b7bd;
+}
+
+.card {
+  width: 85%;
+}
+
+.circle {
+  width: 35%;
+  margin-left: 100px;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+th {
+  color: #a9a9b0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #191919;
+}
+
+.token-table-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.App-card-title {
+  font-size: 20px;
+  color: white;
+}
+
+.App-card-divider {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.token-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.token-table th,
+.token-table td {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-right: 200px;
+}
+
+.token-table th {
+  color: white;
+}
+
+.token-symbol-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.App-card-title-info-icon {
+  margin-right: 10px;
+}
+
+.App-card-title-info-icon img {
+  max-width: 40px;
+}
+
+
+.eth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-card-info-subtitle {
+  font-size: .8rem;
+  line-height: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 0;
+  color: #a9a9b0;
+}
+
+.App-card-info-title {
+  font-size: 1rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.end {
+  margin-top: 40px
+}
+
+.box {
+  display: none;
+  background-color: black;
+  padding: 10px;
+  border: 1px solid #ccc;
+  position: absolute;
+  margin-left: 130px;
+  cursor: pointer;
+}
+
+.box1 {
+  display: none;
+  background-color: black;
+  padding: 10px;
+  border: 1px solid #ccc;
+  position: absolute;
+  cursor: pointer;
+}
+
+#price:hover+.box1 {
+  display: block;
+}
+
+#price:hover+.box {
+  display: block;
+}
+
+.line {
+  width: 100%;
+  height: 0.5px;
+  background-color: white;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+  gap: 10px;
+  min-width: 250px;
+}
+
+.container:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-icon {
+  padding-right: 5px;
+}
+
+.main {
+  color: blac;
+  background-color: #191919;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.p {
+  font: 12px relative, sans-serif;
+  color: #A9A9B0;
+  margin-right: 10px;
+}
+
+
+
+.box1 div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.Tooltip-handle {
+  cursor: help;
+  position: relative;
+  display: inline-flex;
+  text-decoration: underline;
+  -webkit-text-decoration-style: dashed;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  -webkit-text-decoration-color: hsla(0,0%,100%,.6);
+  text-decoration-color: hsla(0,0%,100%,.6);
+}
